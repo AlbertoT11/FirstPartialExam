@@ -1,0 +1,12 @@
+@media (min-width : 600px) and (max-width: 990px){
+    .left-side, .right-side{
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 991px){
+    .left-side, .right-side{
+        width: 30%;
+    }
+}

@@ -1,0 +1,59 @@
+  @media (min-width : 600px) and (max-width: 990px){
+      .left-side, .right-side{
+          width: 50%;
+          float: left;
+      }
+  }
+
+  @media (min-width: 991px){
+      .left-side, .right-side{
+          width: 30%;
+      }
+  }
+
+  div{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    
+}
+
+.heading{
+border: 1px solid black;
+display: flex;
+flex-direction: row;
+
+}
+
+  .navigation{
+border: 1px solid black;
+display: flex;
+flex-direction: row;
+  }
+
+  .content{
+      display: flex;
+      flex-direction: row;
+     
+  }
+
+  .side{
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      width: 30%;
+  }
+
+  .main{
+    display: flex;
+    align-items: left;
+    width: 70%;
+  }
+
+  
